@@ -5,13 +5,15 @@ class Solution {
      * @return Integer
      */
     function maxSubArray($nums) {
-        $sum = $nums[0];
         $ans = $nums[0];
-        foreach($nums as $idx => $num){
-            if($idx){
-                $sum = max($num, $sum + $num);
+        $tmp = $nums[0];
+        for( $i = 1; $i < count($nums); $i++ ){
+            if($tmp < 0){
+                $tmp = $nums[$i];
+            }else{
+                $tmp += $nums[$i];
             }
-            $ans = max($ans, $sum);
+            $ans = $tmp > $ans ? $tmp : $ans;
         }
         return $ans;
     }
