@@ -4,7 +4,7 @@ LeetCode
 
 | # | Title | Solution | Submissions |
 |---| ----- | -------- | ---------- |
-|1|[two-sum](https://leetcode.com/problems/two-sum)| [PHP](./1-two-sum/1-two-sum.php)|Time: 1200 ms (44.74%), Space: 20.1 MB (18.96%)|
+|1|[two-sum](https://leetcode.com/problems/two-sum)| [PHP](./1-two-sum/1-two-sum.php)|Time: 243 ms (62.01%), Space: 21.2 MB (19.05%)|
 |2|[add-two-numbers](https://leetcode.com/problems/add-two-numbers)| [PHP](./2-add-two-numbers/2-add-two-numbers.php)|Time: 50 ms (15.36%), Space: 19.5 MB (6.25%)|
 |3|[longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)| [PHP](./3-longest-substring-without-repeating-characters/3-longest-substring-without-repeating-characters.php)|Time: 16 ms (91.44%), Space: 19.6 MB (13.19%)|
 |4|[median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)| [PHP](./4-median-of-two-sorted-arrays/4-median-of-two-sorted-arrays.php)|Time: 32 ms (94.98%), Space: 19.7 MB (8.24%)|
